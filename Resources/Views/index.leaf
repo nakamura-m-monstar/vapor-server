@@ -6,7 +6,11 @@
 
     <h2>There aren't veicle yet!</h2>
 
-<a href="#" class="square_btn">BUTTON</a>
+
+
+<div class="css/test">
+<h3>見出しのサンプル</h3>
+</div>
 
 }
 
