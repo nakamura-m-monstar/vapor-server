@@ -6,6 +6,8 @@
 
     <h2>There aren't veicle yet!</h2>
 
+<a href="#" class="square_btn">BUTTON</a>
+
 }
 
 #embed("base")
