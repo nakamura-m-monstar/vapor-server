@@ -2,7 +2,7 @@
 
   <img src="/images/logo.png" class="mx-auto d-block" />
 
-  <h1>Acronyms</h1>
+  <h1>RideCommerce</h1>
 
   #if(acronyms) {
     <table class="table table-bordered table-hover">
