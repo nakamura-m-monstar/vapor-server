@@ -88,8 +88,11 @@ padding: 0 !important;
 <img src="/images/dblogo.png" alt="" class="cebujeepmaptxt center" /></p>
 <div class="textBox">
 <h2>スマートフォンで簡単お買い物ドライブ！</h2>
-<p>クルマでお買い物に行きたいお客さんと運転手さんを</p>
-<p>つなぐ、お買い物ドライブシェアアプリです！</p>
+<ul>
+<li>運転するヒトもしないヒトも</li>
+<li>クルマでお買い物に行きたいお客さん同士をつなぐ</li>
+<li>MaaS（Mobility-as-a-Service）です！</li>
+</ul>
 </div>
 <div class="social center clearfix">
 <a href="https://itunes.apple.com/app/id840827691" target="_blank" title="" ><img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/btn-itunes.png" alt="" class="btn btn-itunes" /></a></p>
