@@ -64,7 +64,7 @@ padding: 0 !important;
 <div id="head">
 <div class="clear-wrap">
 <a href="#home" title="Cebu Jeepney Map">
-<img src="/images/dblogo.png" alt="Cebu Jeepney Map Logo" class="logo left" />
+<img src="/images/bdlogo.png" alt="Cebu Jeepney Map Logo" class="logo left" />
 </a></p>
 <nav>
 <a href="#" id="pull">Menu</a>
