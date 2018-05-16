@@ -63,7 +63,9 @@ padding: 0 !important;
 </div>
 <div id="head">
 <div class="clear-wrap">
-<a href="#home" title="Cebu Jeepney Map"><img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/logo.png" alt="Cebu Jeepney Map Logo" class="logo left" /></a></p>
+<a href="#home" title="Cebu Jeepney Map">
+<img src="/images/dblogo.png" alt="Cebu Jeepney Map Logo" class="logo left" />
+</a></p>
 <nav>
 <a href="#" id="pull">Menu</a>
 <ul class="nav right">
@@ -79,11 +81,11 @@ padding: 0 !important;
 <div class="clear-wrap">
 <div class="section clearfix">
 <div class="col left clearfix">
-<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/iPhone-white.png" alt="" class="iPhone-white" /><br />
-<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/iPhone-black.png" alt="" class="iPhone-black" />
+<img src="/images/iPhone-white.png" alt="" class="iPhone-white" /><br />
+<img src="/images/iPhone-black.png" alt="" class="iPhone-black" />
 </div>
 <div class="col right spacer-top clearfix">
-<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/cebu-jeepney-map.png" alt="" class="cebujeepmaptxt center" /></p>
+<img src="/images/dblogo.png" alt="" class="cebujeepmaptxt center" /></p>
 <div class="textBox">
 <h2>スマートフォンで簡単お買い物ドライブ！</h2>
 <p>クルマでお買い物に行きたいお客さんと運転手さんを</p>
