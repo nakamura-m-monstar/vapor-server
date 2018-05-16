@@ -1,180 +1,298 @@
-<!doctype html>
-<html lang="en">
+
+<!DOCTYPE HTML>
+<html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="icon" href="../../../../favicon.ico">
-
-<title>Product example for Bootstrap</title>
-
-<!-- Bootstrap core CSS -->
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-
-
-<!-- Custom styles for this template -->
-<link href="product.css" rel="stylesheet">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Cebu Jeepney Map | Jeepney Map Application for Cebu</title>
+<link rel="stylesheet" type="text/css" media="all" href="http://cebu.jeepneymap.com/wp-content/themes/jeepney/style.css" />
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://cebu.jeepneymap.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.7.2' type='text/css' media='all' />
+<style type="text/css" media="screen">
+.qtrans_flag span { display:none }
+.qtrans_flag { height:12px; width:18px; display:block }
+.qtrans_flag_and_text { padding-left:20px }
+.qtrans_flag_en { background:url(http://cebu.jeepneymap.com/wp-content/plugins/qtranslate/flags/gb.png) no-repeat }
+.qtrans_flag_ja { background:url(http://cebu.jeepneymap.com/wp-content/plugins/qtranslate/flags/jp.png) no-repeat }
+</style>
+<link rel='dns-prefetch' href='//s.w.org' />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cebu.jeepneymap.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.11"}};
+!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 .07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://cebu.jeepneymap.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://cebu.jeepneymap.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://cebu.jeepneymap.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://cebu.jeepneymap.com/ja/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cebu.jeepneymap.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cebu.jeepneymap.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 4.6.11" />
+<style type="text/css">
+.qtranxs_flag_en {background-image: url(http://cebu.jeepneymap.com/wp-content/plugins/qtranslate-x/flags/gb.png); background-repeat: no-repeat;}
+.qtranxs_flag_ja {background-image: url(http://cebu.jeepneymap.com/wp-content/plugins/qtranslate-x/flags/jp.png); background-repeat: no-repeat;}
+</style>
+<link hreflang="en" href="http://cebu.jeepneymap.com/en/" rel="alternate" />
+<link hreflang="ja" href="http://cebu.jeepneymap.com/ja/" rel="alternate" />
+<link hreflang="x-default" href="http://cebu.jeepneymap.com/" rel="alternate" />
+<meta name="generator" content="qTranslate-X 3.4.6.8" />
 </head>
 
-<body>
-
-<nav class="site-header sticky-top py-1">
-<div class="container d-flex flex-column flex-md-row justify-content-between">
-<a class="py-2" href="#">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+<body class="home blog">    <div class="parallax">
+<div id="p-jeepcontainer">
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/jeepbody-gif.gif" class="p-jeepbody" alt="" /><br />
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/jeepwheel.png" class="p-tire p-jeepwheel-front" alt="" /><br />
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/jeepwheel.png" class="p-tire p-jeepwheel-back" alt="" />
+</div>
+<p>        <img id="city" src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/city2.png" alt="" class="" /></p>
+<div class="lightgray">&nbsp;</div>
+<div class="gray">&nbsp;</div>
+</div>
+<div id="head">
+<div class="clear-wrap">
+<a href="#home" title="Cebu Jeepney Map"><img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/logo.png" alt="Cebu Jeepney Map Logo" class="logo left" /></a></p>
+<nav>
+<a href="#" id="pull">Menu</a>
+<ul class="nav right">
+<li><a href="#home" title="Home">Home</a></li>
+<li><a href="#about" title="About Us">About Us</a></li>
+<li><a href="#contact" title="Contact">Contact</a></li>
+<li><a href="/en/" title="英語に変更">English</a></li>
+</ul>
+</nav></div>
+</div>
+<div id="mainContent">
+<div id="home" class="clearfix">
+<div class="clear-wrap">
+<div class="section clearfix">
+<div class="col left clearfix">
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/iPhone-white.png" alt="" class="iPhone-white" /><br />
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/iPhone-black.png" alt="" class="iPhone-black" />
+</div>
+<div class="col right spacer-top clearfix">
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/cebu-jeepney-map.png" alt="" class="cebujeepmaptxt center" /></p>
+<div class="textBox">
+<h2>スマートフォンで簡単お買い物ドライブ！</h2>
+<p>クルマでお買い物に行きたいお客さんと運転手さんを</p>
+<p>つなぐ、お買い物ドライブシェアアプリです！</p>
+</div>
+<div class="social center clearfix">
+<a href="https://itunes.apple.com/app/id840827691" target="_blank" title="" ><img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/btn-itunes.png" alt="" class="btn btn-itunes" /></a></p>
+<p><a href="https://play.google.com/store/apps/details?id=com.jeepney.android" target="_blank"><br />
+<img alt="Get it on Google Play"
+src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/btn-android.png" class="btn btn-itunes"/><br />
+</a></p>
+<div class="social-lbl">
+<a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fcebu.jeepneymap.com" onClick="javascript:window.open('http://www.facebook.com/share.php?u=http%3A%2F%2Fcebu.jeepneymap.com',null,'width=650,height=450'); return false;" rel="nofollow" title="Share!" ><br />
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/btn-fb.png" alt="" class="btn btn-fb left" /><br />
+<span class="socialcount sc-fb left"><span class="fb-count"></span><br />likes</span><br />
+</a><br />
+<a href="http://twitter.com/share?text=Cebu Jeepney Map&#038;url=http%3A%2F%2Fcebu.jeepneymap.com&#038;via=CebuJeepMap" onClick="javascript:window.open('http://twitter.com/share?text=Cebu Jeepney Map&#038;url=http%3A%2F%2Fcebu.jeepneymap.com&#038;via=CebuJeepMap',null,'width=650,height=450'); return false;" rel="nofollow" title="Tweet!" ><br />
 </a>
-<a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-<a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-<a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-<a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-<a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-<a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-<a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
 </div>
-</nav>
-
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-<div class="col-md-5 p-lg-5 mx-auto my-5">
-<h1 class="display-4 font-weight-normal">Punny headline</h1>
-<p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
-<a class="btn btn-outline-secondary" href="#">Coming soon</a>
+</div></div></div></div>
+<div id="top-footer" class="clearfix">
+<div class="jeepcontainer">
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/jeepbody-gif.gif" class="jeepbody" alt="" /><br />
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/jeepwheel.png" class="tire jeepwheel-front" alt="" /><br />
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/jeepwheel.png" class="tire jeepwheel-back" alt="" />
 </div>
-<div class="product-device box-shadow d-none d-md-block"></div>
-<div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+<p>                <img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/city2.png" alt="" class="footercity right" />
 </div>
-
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-<div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-<div class="my-3 py-3">
-<h2 class="display-5">Another headline</h2>
-<p class="lead">And an even wittier subheading.</p>
-</div>
-<div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-</div>
-<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-<div class="my-3 p-3">
-<h2 class="display-5">Another headline</h2>
-<p class="lead">And an even wittier subheading.</p>
-</div>
-<div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-</div>
-</div>
-
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-<div class="my-3 p-3">
-<h2 class="display-5">Another headline</h2>
-<p class="lead">And an even wittier subheading.</p>
-</div>
-<div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-</div>
-<div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-<div class="my-3 py-3">
-<h2 class="display-5">Another headline</h2>
-<p class="lead">And an even wittier subheading.</p>
-</div>
-<div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-</div>
-</div>
-
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-<div class="my-3 p-3">
-<h2 class="display-5">Another headline</h2>
-<p class="lead">And an even wittier subheading.</p>
-</div>
-<div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-</div>
-<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-<div class="my-3 py-3">
-<h2 class="display-5">Another headline</h2>
-<p class="lead">And an even wittier subheading.</p>
-</div>
-<div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-</div>
-</div>
-
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-<div class="my-3 p-3">
-<h2 class="display-5">Another headline</h2>
-<p class="lead">And an even wittier subheading.</p>
-</div>
-<div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-</div>
-<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-<div class="my-3 py-3">
-<h2 class="display-5">Another headline</h2>
-<p class="lead">And an even wittier subheading.</p>
-</div>
-<div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-</div>
-</div>
-
-<footer class="container py-5">
-<div class="row">
-<div class="col-12 col-md">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
-<small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
-</div>
-<div class="col-6 col-md">
-<h5>Features</h5>
-<ul class="list-unstyled text-small">
-<li><a class="text-muted" href="#">Cool stuff</a></li>
-<li><a class="text-muted" href="#">Random feature</a></li>
-<li><a class="text-muted" href="#">Team feature</a></li>
-<li><a class="text-muted" href="#">Stuff for developers</a></li>
-<li><a class="text-muted" href="#">Another one</a></li>
-<li><a class="text-muted" href="#">Last time</a></li>
+</p></div>
+<div id="about" class="clearfix">
+<div class="clear-wrap">
+<div class="section clearfix">
+<div class="col left spacer-top">
+<h3>こんな方におすすめ！</h3>
+<ul>
+<li>クルマを持ってないけど、クルマで買い物に行けるなら沢山買い物したい気分</li>
+<li>クルマを持ってるけど、お買い物が安くなるなら誰かクルマに乗せて行ってもいい</li>
+<li>お買い物に出かけたい気分だけど、行きたい先が決まってない</li>
 </ul>
 </div>
-<div class="col-6 col-md">
-<h5>Resources</h5>
-<ul class="list-unstyled text-small">
-<li><a class="text-muted" href="#">Resource</a></li>
-<li><a class="text-muted" href="#">Resource name</a></li>
-<li><a class="text-muted" href="#">Another resource</a></li>
-<li><a class="text-muted" href="#">Final resource</a></li>
-</ul>
+<div class="col right">
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/cebu-jeepney.png" alt="Cebu Jeepney" class="jeepney object" />
 </div>
-<div class="col-6 col-md">
-<h5>Resources</h5>
-<ul class="list-unstyled text-small">
-<li><a class="text-muted" href="#">Business</a></li>
-<li><a class="text-muted" href="#">Education</a></li>
-<li><a class="text-muted" href="#">Government</a></li>
-<li><a class="text-muted" href="#">Gaming</a></li>
-</ul>
+</div></div></div>
+<div id="contact" class="clearfix">
+<div class="clear-wrap">
+<div class="section">
+<h3>お問い合わせ</h3>
+<p>弊社では、本アプリサービスに協業して頂けるの企業様を募集しています。</p>
+<p>その他ご希望、ご要望等ございましたら、ご連絡の程宜しくお願い致します。</p>
+<p><img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/contactus.png" alt="" class="contactus object" /><br />
 </div>
-<div class="col-6 col-md">
-<h5>About</h5>
-<ul class="list-unstyled text-small">
-<li><a class="text-muted" href="#">Team</a></li>
-<li><a class="text-muted" href="#">Locations</a></li>
-<li><a class="text-muted" href="#">Privacy</a></li>
-<li><a class="text-muted" href="#">Terms</a></li>
-</ul>
+<div role="form" class="wpcf7" id="wpcf7-f6-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/ja/#wpcf7-f6-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="6" />
+<input type="hidden" name="_wpcf7_version" value="4.5.1" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f6-o1" />
+<input type="hidden" name="_wpnonce" value="08f6fc2e7f" />
+</div>
+<table>
+<tr>
+<td class="label">お名前</td>
+<td><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required txt" aria-required="true" aria-invalid="false" /></span></td>
+</tr>
+<tr>
+<td class="label">メールアドレス</td>
+<td><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email txt" aria-required="true" aria-invalid="false" /></span></td>
+</tr>
+<tr>
+<td class="label">タイトル</td>
+<td><span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required txt" aria-required="true" aria-invalid="false" /></span></td>
+</tr>
+<tr>
+<td class="label">メッセージ</td>
+<td><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required msg" aria-required="true" aria-invalid="false"></textarea></span></span></td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="submit" value="submit" class="wpcf7-form-control wpcf7-submit btn btn-send center" /></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div>
+</td>
+</tr>
+</table>
+</form></div>
 </div>
 </div>
-</footer>
-
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-<script src="../../assets/js/vendor/popper.min.js"></script>
-<script src="../../dist/js/bootstrap.min.js"></script>
-<script src="../../assets/js/vendor/holder.min.js"></script>
-<script>
-Holder.addTheme('thumb', {
-bg: '#55595c',
-fg: '#eceeef',
-text: 'Thumbnail'
-});
+</div>
+</div>
+</div>
+<div id="footer" class="clearfix">
+<div class="jeepcontainer">
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/jeepbody-gif.gif" class="jeepbody" alt="" />
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/jeepwheel.png" class="tire jeepwheel-front" alt="" />
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/jeepwheel.png" class="tire jeepwheel-back" alt="" />
+</div>
+<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/city2.png" alt="" class="footercity right" />
+<div class="footer-txt">
+<span class="center">Copyright 2018&copy; <a href="http://2gazb.com/" target="_blank" title="2gazb Co., Ltd.">2gazb Co., Ltd.</a> All Rights Reserved.</span>
+</div>
+</div>
+</div>
+<script type='text/javascript' src='http://cebu.jeepneymap.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/cebu.jeepneymap.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002"}},"sending":"\u9001\u4fe1\u4e2d ..."};
+/* ]]> */
 </script>
+<script type='text/javascript' src='http://cebu.jeepneymap.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.5.1'></script>
+<script type='text/javascript' src='http://cebu.jeepneymap.com/wp-includes/js/wp-embed.min.js?ver=4.6.11'></script>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/js/jeepAnimation.js"></script>
+<script type="text/javascript">
+window._pt_sp_2 = [];
+_pt_sp_2.push('setAccount,1dda7daa');
+var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+(function() {
+var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+atag.src = _protocol + 'js.ptengine.jp/pta.js';
+var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true;
+stag.src = _protocol + 'js.ptengine.jp/pts.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s);
+})();
+
+$(window).on('beforeunload', function() {
+$(window).scrollTop(0);
+});
+
+$(function() {
+var pull         = $('#pull');
+menu         = $('nav ul');
+menuHeight    = menu.height();
+
+$(pull).on('click', function(e) {
+e.preventDefault();
+menu.slideToggle(400);
+});
+
+$(window).resize(function(){
+var w = $(window).width();
+if(w > 640) {
+menu.removeAttr('style');
+}
+});
+});
+
+$(function() {
+$('a').bind('click',function(event){
+var $anchor = $(this);
+
+$('html, body').stop().animate({
+scrollTop: $($anchor.attr('href')).offset().top
+}, 1000,'easeInOutExpo');
+
+event.preventDefault();
+});
+});
+
+$(function(){
+$('.logo').hide();
+$(window).scroll(function(){
+if ($(this).scrollTop() > 500) {
+$('.logo').fadeIn("slow");
+//$('.jeep').addClass("fadeIn");
+} else {
+$('.logo').fadeOut("slow");
+}
+});
+});
+
+$(document).ready(function () {
+$('.iPhone-white, .iPhone-black').addClass("fadeIn");
+
+var width = $(window).width();
+if(width < 769)
+{
+$('.object').addClass("fadeIn");
+}
+else
+{
+$(window).scroll(function() {
+$('.object').each(function(){
+var imagePos = $(this).offset().top;
+
+var topOfWindow = $(window).scrollTop();
+if (imagePos < topOfWindow+600) {
+$(this).addClass("fadeIn");
+}
+});
+});
+}
+});
+
+window._pt_lt = new Date().getTime();
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-49658680-1', 'jeepneymap.com');
+ga('send', 'pageview');
+</script>
+
 </body>
 </html>
