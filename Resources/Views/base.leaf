@@ -121,9 +121,9 @@ src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/btn-android.png" c
 <div class="col left spacer-top">
 <h3>こんな方におすすめ！</h3>
 <ul>
-<li>クルマを持ってないけど、クルマで買い物に行けるなら沢山買い物したい気分</li>
-<li>クルマを持ってるけど、お買い物が安くなるなら誰かクルマに乗せて行ってもいい</li>
-<li>お買い物に出かけたい気分だけど、行きたい先が決まってない</li>
+<li>誰かの運転で買い物に行けるなら沢山買い物したい気分</li>
+<li>買い物が安くなるなら誰かが自分のクルマに一緒に乗るのOK</li>
+<li>お買い物に出かけたい気分だけど行きたい先が決まってない</li>
 </ul>
 </div>
 <div class="col right">
@@ -134,8 +134,9 @@ src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/btn-android.png" c
 <div class="clear-wrap">
 <div class="section">
 <h3>お問い合わせ</h3>
-<p>弊社では、本アプリサービスに協業して頂けるの企業様を募集しています。</p>
-<p>その他ご希望、ご要望等ございましたら、ご連絡の程宜しくお願い致します。</p>
+<ul>
+<li>本アプリのサービス展開について、協業して頂ける企業様を募集しています。</li>
+<li>もし興味ございましたら、お気軽にご連絡の程よろしくお願い致します。</li>
 <p><img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/contactus.png" alt="" class="contactus object" /><br />
 </div>
 <div role="form" class="wpcf7" id="wpcf7-f6-o1" lang="en-US" dir="ltr">
