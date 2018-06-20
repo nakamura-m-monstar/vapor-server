@@ -34,7 +34,7 @@ background: none !important;
 padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='contact-form-7-css'  href='http://cebu.jeepneymap.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://cebu.jeepneymap.com/wp-/Users/nakamuramasayuki/vapor-server/TILApp.xcodeprojcontent/plugins/contact-form-7/includes/css/styles.css?ver=4.5.1' type='text/css' media='all' />
 <script type='text/javascript' src='http://cebu.jeepneymap.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='http://cebu.jeepneymap.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <link rel='https://api.w.org/' href='http://cebu.jeepneymap.com/ja/wp-json/' />
@@ -130,7 +130,7 @@ src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/btn-android.png" c
 </ul>
 </div>
 <div class="col right">
-<img src="http://cebu.jeepneymap.com/wp-content/themes/jeepney/img/cebu-jeepney.png" alt="Cebu Jeepney" class="jeepney object" />
+<img src="/images/car_front.png" alt="sample" />"
 </div>
 </div></div></div>
 <div id="contact" class="clearfix">
