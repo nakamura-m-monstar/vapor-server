@@ -287,7 +287,6 @@ $(this).addClass("fadeIn");
 });
 });
 }
-});
 
 window._pt_lt = new Date().getTime();
 
